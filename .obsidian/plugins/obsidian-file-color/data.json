@@ -1,0 +1,49 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "R4JkLGw_jYPI5KOKX3dzp",
+      "name": "IS",
+      "value": "#1d70f7"
+    },
+    {
+      "id": "SSFqOGnCvhYCyuQpdXm4O",
+      "name": "VLSI",
+      "value": "#05f5b9"
+    },
+    {
+      "id": "XK0A0RsLa_5kRM32J29LA",
+      "name": "MIPS",
+      "value": "#19d600"
+    },
+    {
+      "id": "cUyZD_zV04JrZ4l9G7YVM",
+      "name": "PP",
+      "value": "#fe1616"
+    },
+    {
+      "id": "Ke8VrXUQmgXhueNo06fOa",
+      "name": "Predavanja i vezbe",
+      "value": "#fbdb09"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "IS",
+      "color": "R4JkLGw_jYPI5KOKX3dzp"
+    },
+    {
+      "path": "MIPS",
+      "color": "XK0A0RsLa_5kRM32J29LA"
+    },
+    {
+      "path": "PP",
+      "color": "cUyZD_zV04JrZ4l9G7YVM"
+    },
+    {
+      "path": "Predavanja i Vezbe.md",
+      "color": "Ke8VrXUQmgXhueNo06fOa"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "ed8aad75ed05971f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f850431e8455ed6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb29d867ebf987b5",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "8d29277f0abf46af",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Predavanja i Vezbe.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "817b38b61c4fc4a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f45206de74656701",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a57d954073275182",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "01d092a28003ed7b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f0bbab62307b2896",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9ac2e337ea8e1290",
+    "type": "split",
+    "children": [
+      {
+        "id": "6496815fa78d346c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62287deea863a38e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9fecf88e78cc926a",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "00d9923518406c13",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Predavanja i Vezbe.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "hide-folders:Show hidden folders": false
+    }
+  },
+  "active": "a57d954073275182",
+  "lastOpenFiles": [
+    "MIPS/Predavanja - 1) Poluprovodnici i logicka kola.md",
+    "Predavanja i Vezbe.md",
+    "IS/Vezbe - 1) Prostor i algoritmi pretrazivanja.md",
+    "a PNG folder/Pasted image 20241011161236.png",
+    "a PNG folder/Pasted image 20241011161116.png",
+    "a PNG folder/Pasted image 20241011155436.png",
+    "a PNG folder/Pasted image 20241011155421.png",
+    "a PNG folder/Pasted image 20241011155407.png",
+    "a PNG folder/Pasted image 20241011155340.png",
+    "PP/Vezbe - 1) Leksicka analiza.md",
+    "a PNG folder/Pasted image 20241011153101.png",
+    "a PNG folder/Pasted image 20241011152934.png",
+    "a PNG folder/Pasted image 20241011152829.png",
+    "a PNG folder/Pasted image 20241011152636.png",
+    "PP/Predavanja - 2) Leksicka analiza.md",
+    "PP/Predavanja - 1) Struktura prevodioca.md",
+    "Excalidraw/Drawing 2024-10-06 00.45.16.excalidraw.md",
+    "PP/PP canvas.canvas",
+    "Untitled.md",
+    "MIPS",
+    "Excalidraw",
+    "a PNG folder",
+    "PP",
+    "PS/Vezbe - 1).md",
+    "PS",
+    "IS/Predavanja - 1).md",
+    "IS",
+    "Full Calendar Plugin/Yellow - Climbing/(Every F) Bouldering.md",
+    "Full Calendar Plugin/Yellow - Climbing",
+    "Full Calendar Plugin/Blue - Workouts/(Every S) Third Workout.md",
+    "Full Calendar Plugin/Blue - Workouts/(Every W) Second Workout.md",
+    "Full Calendar Plugin/Blue - Workouts/(Every T) First Workout.md",
+    "Full Calendar Plugin/Purple - University schedule/(Every R) IS - Vezbe.md",
+    "Full Calendar Plugin/Purple - University schedule/(Every R) PP - Vezbe.md",
+    "Full Calendar Plugin/Purple - University schedule/(Every R) PS - Vezbe.md",
+    "Full Calendar Plugin/Purple - University schedule/(Every W) MIPS - Vezbe.md",
+    "Full Calendar Plugin/Purple - University schedule/(Every W) PS - Predavanje.md",
+    "Full Calendar Plugin/Purple - University schedule/(Every W) IS - Predavanje.md",
+    "Full Calendar Plugin/Purple - University schedule/(Every T) VLSI - Predavanje.md",
+    "Full Calendar Plugin/Purple - University schedule/(Every T) VLSI - Vezbe.md",
+    "Full Calendar Plugin/Purple - University schedule/(Every M) MIPS - Predavanje.md",
+    "Full Calendar Plugin/Purple - University schedule/(Every M) PP - Predavanje.md",
+    "Purple - Uni schedule.md",
+    "Full Calendar Plugin/Blue - Workouts",
+    "Full Calendar Plugin/Purple - University schedule",
+    "Full Calendar Plugin"
+  ]
+}
