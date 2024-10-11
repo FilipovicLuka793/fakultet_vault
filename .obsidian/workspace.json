@@ -28,9 +28,32 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "a037fc997fb934a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MIPS/Predavanja - 1) Poluprovodnici i logicka kola.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "687d826e4fea6581",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Predavanja i Vezbe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,9 +163,10 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "a57d954073275182",
+  "active": "bb29d867ebf987b5",
   "lastOpenFiles": [
     "MIPS/Predavanja - 1) Poluprovodnici i logicka kola.md",
+    "2024-10-11.md",
     "Predavanja i Vezbe.md",
     "IS/Vezbe - 1) Prostor i algoritmi pretrazivanja.md",
     "a PNG folder/Pasted image 20241011161236.png",
