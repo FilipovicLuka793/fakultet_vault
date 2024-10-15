@@ -2,18 +2,8 @@
   "calendarSources": [
     {
       "type": "local",
-      "color": "#364ae2",
-      "directory": "Full Calendar Plugin/Blue - Workouts"
-    },
-    {
-      "type": "local",
       "color": "#851bac",
       "directory": "Full Calendar Plugin/Purple - University schedule"
-    },
-    {
-      "type": "local",
-      "color": "#eece2f",
-      "directory": "Full Calendar Plugin/Yellow - Climbing"
     }
   ],
   "defaultCalendar": 0,

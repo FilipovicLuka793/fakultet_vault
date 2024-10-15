@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbChip",
+      "LiDisc3",
       "LiListChecks",
       "IbGraphLineUp",
-      "LiDisc",
-      "LiBrain",
-      "LiBanana"
+      "LiDisc"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,7 +34,8 @@
     "debugMode": false
   },
   "IS": "LiBrain",
-  "MIPS": "LiDisc",
+  "MIPS": "IbChip",
   "PP": "IbGraphLineUp",
-  "Predavanja i Vezbe.md": "LiListChecks"
+  "Predavanja i Vezbe.md": "LiListChecks",
+  "VLSI": "LiDisc3"
 }

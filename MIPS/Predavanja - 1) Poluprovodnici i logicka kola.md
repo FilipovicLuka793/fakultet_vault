@@ -64,4 +64,40 @@ C - kolektor
 ![[Pasted image 20241007204048.png]]
 
 
-### 
+### Kola sa otvorenim kolktorom
+
+![[Pasted image 20241012163217.png]]
+
+Ta otvoreno veza nam utcari obezbedjuje da izlaz bude u stanje visoke ipedanse da ne bi pregorele zice ako su povezane.
+
+![[Pasted image 20241012163524.png]]
+
+### Smitovo kolo
+
+![[Pasted image 20241012164151.png]]
+
+![[Pasted image 20241012164204.png]]
+
+Radi po principu kada dostigne jedinicu i potencijal pocne da pada vrednost jedan ostaje sve dok ne dodje do donje granici gde tek onda postaje 0. Isto i suprotno ako potencijal krene da raste i prodje gornju granicu ne postaje odmah 1 ili neka nedefinisana vrednost vec ostaje na 0 sve dok ne dodje do gornje granice i tada postaje 1.
+
+### MOS tranzistor
+
+![[Pasted image 20241012171808.png]]
+
+Koristi se kao prekidac.
+
+NMOS - kada je 1 onda provodi, kada je 0 koci
+PMOS - kada je 1 onda koci, kada je 0 provodi
+
+![[Pasted image 20241012171931.png]]
+
+![[Pasted image 20241012172340.png]]
+
+
+## Logicka kola
+
+![[Pasted image 20241013005244.png]]
+
+Ovo je sekvencijalno logicko kolo odnosno Lec. 
+
+Lecevi garantuju da ako je R bio postavljen na 1 i u nekom trenutku se postavi na 0 vrednost Q ce idalje biti 0. Bolje receno ovo kolo obezbedjuju da vrednosti Q i ne-Q ostanu iste. Ali je jako bitno da nikada se ne postavi R i S na 1 u isto vreme posto onda kolo nece dobro funkcionisati.
