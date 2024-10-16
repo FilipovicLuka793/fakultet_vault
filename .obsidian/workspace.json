@@ -28,21 +28,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "22ec9726eb0808dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VLSI/Predavanja - 2) Verilog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9ac2e337ea8e1290",
@@ -128,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VLSI/Predavanja - 2) Verilog.md"
+                "file": "Predavanja i Vezbe.md"
               }
             }
           },
@@ -138,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VLSI/Predavanja - 2) Verilog.md",
+                "file": "Predavanja i Vezbe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VLSI/Predavanja - 2) Verilog.md",
+                "file": "Predavanja i Vezbe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,10 +169,17 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "22ec9726eb0808dc",
+  "active": "8d29277f0abf46af",
   "lastOpenFiles": [
-    "Predavanja i Vezbe.md",
+    "VLSI/Vezbe - 1) Verilog HDL.md",
+    "a PNG folder/Pasted image 20241016132114.png",
+    "a PNG folder/Pasted image 20241016131448.png",
+    "a PNG folder/Pasted image 20241016130148.png",
+    "a PNG folder/Pasted image 20241016125406.png",
+    "Excalidraw/Drawing 2024-10-16 11.56.28.excalidraw.md",
+    "a PNG folder/Pasted image 20241016013252.png",
     "VLSI/Predavanja - 2) Verilog.md",
+    "Predavanja i Vezbe.md",
     "VLSI/Predavanja - 1) Uvod u racunarske VLSI sisteme.md",
     "a PNG folder/Pasted image 20241015135036.png",
     "a PNG folder/Pasted image 20241015134631.png",
@@ -199,11 +193,6 @@
     "MIPS/Vezbe - 2).md",
     "MIPS/Predavanja - 1) Poluprovodnici i logicka kola.md",
     "a PNG folder/Pasted image 20241013005244.png",
-    "a PNG folder/Pasted image 20241012172340.png",
-    "a PNG folder/Pasted image 20241012171931.png",
-    "a PNG folder/Pasted image 20241012171808.png",
-    "a PNG folder/Pasted image 20241012164204.png",
-    "a PNG folder/Pasted image 20241012164151.png",
     "2024-10-11.md",
     "IS/Vezbe - 1) Prostor i algoritmi pretrazivanja.md",
     "PP/Predavanja - 2) Leksicka analiza.md",
@@ -226,9 +215,6 @@
     "Full Calendar Plugin/Purple - University schedule/(Every R) IS - Vezbe.md",
     "Full Calendar Plugin/Purple - University schedule/(Every R) PP - Vezbe.md",
     "Full Calendar Plugin/Purple - University schedule/(Every R) PS - Vezbe.md",
-    "Full Calendar Plugin/Purple - University schedule/(Every W) MIPS - Vezbe.md",
-    "Full Calendar Plugin/Purple - University schedule/(Every W) PS - Predavanje.md",
-    "Full Calendar Plugin/Purple - University schedule/(Every W) IS - Predavanje.md",
     "Full Calendar Plugin/Blue - Workouts",
     "Full Calendar Plugin/Purple - University schedule"
   ]
