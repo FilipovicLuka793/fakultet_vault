@@ -26,6 +26,11 @@
       "id": "Ke8VrXUQmgXhueNo06fOa",
       "name": "Predavanja i vezbe",
       "value": "#fbdb09"
+    },
+    {
+      "id": "iUTilrONopfixupMk346n",
+      "name": "RM2",
+      "value": "#fe20e0"
     }
   ],
   "fileColors": [
@@ -48,6 +53,10 @@
     {
       "path": "VLSI",
       "color": "SSFqOGnCvhYCyuQpdXm4O"
+    },
+    {
+      "path": "RM2",
+      "color": "iUTilrONopfixupMk346n"
     }
   ]
 }

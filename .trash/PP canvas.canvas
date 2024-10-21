@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "712598a7d0aaddb4",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 20,
+      "y": -640,
+      "width": 1380,
+      "height": 560,
+      "label": "Kolokvijum 1"
+    },
+    {
+      "id": "14171b7b08cf6b35",
+      "type": "file",
+      "file": "PP/Predavanja - 1) Struktura prevodioca.md",
+      "styleAttributes": {},
+      "x": 72,
+      "y": -572,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "a5f20eb58ea7eeb4",
+      "type": "file",
+      "file": "PP/Predavanja - 2) Leksicka analiza.md",
+      "styleAttributes": {},
+      "x": 517,
+      "y": -572,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "d69a62806c7ed72e",
+      "type": "file",
+      "file": "PP/Vezbe - 1) Leksicka analiza.md",
+      "styleAttributes": {},
+      "x": 962,
+      "y": -572,
+      "width": 400,
+      "height": 400
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}

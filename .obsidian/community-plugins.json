@@ -3,7 +3,6 @@
   "obsius-publish",
   "colored-text",
   "advanced-canvas",
-  "obsidian-excalidraw-plugin",
   "obsidian-latex-suite",
   "table-editor-obsidian",
   "editing-toolbar",
@@ -11,5 +10,6 @@
   "obsidian-icon-folder",
   "obsidian-file-color",
   "hide-folders",
-  "code-styler"
+  "code-styler",
+  "ink"
 ]

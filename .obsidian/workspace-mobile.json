@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "d8dbc2ca548d1416",
+    "type": "split",
+    "children": [
+      {
+        "id": "85309652fb7a0681",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0521a52a6638254d",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "90fa259dbdcd9648",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PP/Vezbe - 1) Leksicka analiza.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vezbe - 1) Leksicka analiza"
+            }
+          },
+          {
+            "id": "a40a5116e55784b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Predavanja i Vezbe.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Predavanja i Vezbe"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2cafcbfede7d448d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "37f08a29677d9efe",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "73f4399d76df9f08",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "948f3616190a0c8a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "20d623085e68c20c",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "c2ae4521c3bb3358",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "5abf6202d12f4391",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "PP/Vezbe - 1) Leksicka analiza.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "4734cd942baae85a",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "PP/Vezbe - 1) Leksicka analiza.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "f2f0f195ed62cb2c",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "PP/Vezbe - 1) Leksicka analiza.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "eac83b0e2d6373d2",
+        "type": "leaf",
+        "state": {
+          "type": "quiet-outline",
+          "state": {},
+          "icon": "lines-of-text",
+          "title": "Quiet Outline"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "hide-folders:Show hidden folders": false
+    }
+  },
+  "active": "0521a52a6638254d",
+  "lastOpenFiles": [
+    "VLSI/Vezbe - 1) Verilog HDL.md",
+    "Predavanja i Vezbe.md",
+    "2024-10-07.md",
+    "Full Calendar Plugin/Purple - University schedule/(Every T) VLSI - Vezbe.md",
+    "PP/Vezbe - 1) Leksicka analiza.md",
+    "PP/Predavanja - 1) Struktura prevodioca.md",
+    "PP/Predavanja - 2) Leksicka analiza.md",
+    "Excalidraw/Drawing 2024-10-06 00.45.16.excalidraw.md"
+  ]
+}
