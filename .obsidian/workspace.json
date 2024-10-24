@@ -34,21 +34,19 @@
             }
           },
           {
-            "id": "b88906865553cc95",
+            "id": "f191fd598ec374ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "RM2/Predavanja - BGP.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-10-24 18.26.27.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Predavanja - BGP"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-10-24 18.26.27.excalidraw"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9ac2e337ea8e1290",
@@ -201,23 +198,35 @@
       "command-palette:Open command palette": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "hide-folders:Show hidden folders": false
+      "hide-folders:Show hidden folders": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b88906865553cc95",
+  "active": "8d29277f0abf46af",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-10-24 18.26.27.excalidraw.md",
     "Predavanja i Vezbe.md",
+    "Excalidraw/Drawing 2024-10-24 18.19.53.excalidraw.md",
+    "Excalidraw",
+    "IS/Vezbe - 2) Metodi zadovoljenja ogranicenja (CSP).md",
+    "a PNG folder/Ink/Drawing/2024.10.24 - 1.23am.drawing",
+    "IS/Vezbe - 1) Prostor i algoritmi pretrazivanja.md",
+    "a PNG folder/Ink/Writing/2024.10.23 - 13.38pm.writing",
+    "a PNG folder/Ink/Writing",
+    "a PNG folder/Ink/Drawing/2024.10.23 - 13.32pm.drawing",
+    "a PNG folder/Ink/Drawing/2024.10.23 - 13.29pm.drawing",
+    "a PNG folder/Pasted image 20241023132920.png",
+    "a PNG folder/Pasted image 20241023130050.png",
     "RM2/Predavanja - BGP.md",
+    "a PNG folder/Pasted image 20241022203549.png",
+    "VLSI/Vezbe - 1) Verilog HDL.md",
+    "a PNG folder/Pasted image 20241022200658.png",
+    "a PNG folder/Pasted image 20241022195620.png",
+    "a PNG folder/Pasted image 20241022194357.png",
+    "a PNG folder/Pasted image 20241022005404.png",
+    "a PNG folder/Pasted image 20241022005149.png",
     "a PNG folder/Pasted image 20241021150833.png",
     "a PNG folder/Pasted image 20241021150210.png",
-    "a PNG folder/Pasted image 20241021145820.png",
-    "a PNG folder/Pasted image 20241021144804.png",
-    "a PNG folder/Pasted image 20241021141130.png",
-    "a PNG folder/Pasted image 20241021140651.png",
-    "a PNG folder/Pasted image 20241021134909.png",
-    "a PNG folder/Pasted image 20241021131005.png",
-    "a PNG folder/Pasted image 20241021125829.png",
-    "a PNG folder/Pasted image 20241021125037.png",
     "PP/Predavanja - 3) Konacni procesi.md",
     "PP/PP canvas.canvas",
     "MIPS/Vezbe - 1).md",
@@ -230,27 +239,17 @@
     "Excalidraw/Drawing 2024-10-19 16.47.06.excalidraw.md",
     "Excalidraw/Drawing 2024-10-06 00.45.16.excalidraw.md",
     "Excalidraw/Drawing 2024-10-16 11.56.28.excalidraw.md",
-    "RM2",
-    "VLSI/Vezbe - 1) Verilog HDL.md",
     "VLSI/Predavanja - 2) Verilog.md",
     "VLSI/Predavanja - 1) Uvod u racunarske VLSI sisteme.md",
-    "VLSI",
-    "Untitled.md",
     "PP/Vezbe - 1) Leksicka analiza.md",
     "MIPS/Vezbe - 2).md",
     "2024-10-11.md",
-    "IS/Vezbe - 1) Prostor i algoritmi pretrazivanja.md",
     "PP/Predavanja - 2) Leksicka analiza.md",
     "PP/Predavanja - 1) Struktura prevodioca.md",
-    "MIPS",
-    "Excalidraw",
-    "a PNG folder",
-    "PP",
     "PS/Vezbe - 1).md",
     "IS/Predavanja - 1).md",
     "Full Calendar Plugin/Yellow - Climbing/(Every F) Bouldering.md",
     "Full Calendar Plugin/Blue - Workouts/(Every S) Third Workout.md",
-    "Full Calendar Plugin/Blue - Workouts/(Every W) Second Workout.md",
-    "Full Calendar Plugin/Blue - Workouts/(Every T) First Workout.md"
+    "Full Calendar Plugin/Blue - Workouts/(Every W) Second Workout.md"
   ]
 }

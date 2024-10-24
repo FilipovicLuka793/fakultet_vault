@@ -203,6 +203,70 @@ MED atribut je netranzitivan sto znaci da putanja ne moze da se prosledjuje kroz
 
 ## Atribut Community (Opcioni tranzitivni)
 
+Ovaj atribut sluzi za slanje poruka odredjenim AS i te poruke trze neki zahtev od AS. Na primer Moze da trazi:
+- No export - ne oglasiti EBGP susedima
+- No advertise - ne oglasiti nikome
+- AS:COMMUNITY - smanji lokalu preferencu za odredjenu vrednost COMMUNITY
 
+# Redudansa, simetrija i balansiranje
 
+* Redudansa
+	*  Povecanje pouzdanosti kroz obezbedjivanje alternativnih putanja
+	* Posto je uslov za dobijanje AS veza ka dva druga AS, redudansa uvek postoji
+* Simetricnost
+	* Ulaz i izlaz izmedju 2 lokaciju putuju istim putem
+	* ISP ne mogu da garantuju servis koji prodaju ako ne postoji simetricnost
+	* Asimetricnost saobracaja - problemi sa otkrivanjem problema
+* Balansiranje
+	* Podela saobracaja preko vise alternativnih putanja
+	* Jako tesko ostvariti sa BGP protokolom u oba smera
+
+![[Pasted image 20241022005149.png]]
+
+![[Pasted image 20241022005404.png]]
+
+# Route reflector
+
+Problem IBGP-a je to sto pravilo glasi da se formira veza izmedju svih ruta unutar jednog AS. To je problematicno posto to zauzima veliki prostor i dosta kosta tako da se pojavljuju route reflektori koji resavaju problem.
+
+Route reflektor krzi pravilo IBGP-a i on dozvoljava slanje IP adresa ka drugim ruterima putem IBGP-a.
+
+![[Pasted image 20241022194357.png]]
+
+- Ako je ruta dobijena od suseda koji nije klijent datog RR, RR će reflektovati datu rutu samo klijentima. 
+- Ako je ruta dobijena od klijenta, RR će je reflektovati svi ostalim klijentima i svim susedima koji nisu klijenti.
+- Ako je ruta dobijena od EBGP suseda, reflektuje se svim klijentima i svim susedima koji nisu klijenti.
+
+![[Pasted image 20241022195620.png]]
+
+Ovi klasteri izazivaju nastanak novog problema unutar AS a to je stvaranje petlji. Da bi se to sprecilo dodaju se novi atributi specificni za klaster a to su ORIGINAL_ID i CLUSTER_LIST.
+
+ORIGINAL_ID oznacava Router ID onog rutera koji je poslao datu rutu. ORIGINATOR kao atribut dodaje RR.
+
+CLUSTER_LIST je atribut analogan AS_PATH atributom.
+
+# Konfederacija
+
+Ovo je drugi nacin za resavanje velikog IBGP veza.
+
+Konfederacija je skup vise manje primitivnih AS u jedan veliki AS.
+
+![[Pasted image 20241022200658.png]]
+
+Ovi manji AS-ovi funkcionisu isto kao i normalni AS-ovi sa istim atributima i kriterijumima. 
+
+Problem ovog sistema je LP zato sto on se samo prenosi po IBGP vezama sto znaci da AS65001 nece znati za LP koji je postavljen sa desne veze AS100.
+
+Problem je resen tako sto "EBGP" za komunikaciju izmedju manjih AS-ova oni zapravo prenose podatke kao da je IBGP veza.
+
+<span style="color:rgb(255, 0, 0)">
+Konfederacija ne bira AS_Path za odredjivanje putanje kroz AS vez koristi unutrasnju logiku kao OSPF ili RIP.</span> 
+
+# Route flap damping
+
+Česte promene ruta koje oglašava neki BGP speaker se propagiraju po celom Internetu. To pravi nepotreban saobraćaj na mreži i opterećuje procesore rutera. Da bi se Internet zaštitio postoji mehanizam “route flap damping”.
+
+Ruter svakoj ruti dodeljuje Penalty vrednost koja je inicijalno 0. Kada se desi promena (route flap) date rute Penalty se povećava za određenu vrednost. Kada nema promena, Penalty se smanjuje, tako da se za definisano vreme half_life se smanji na polovinu početne vrednosti. Kada Penalty pređe Supress-limit, data ruta se više se ne oglašava. Kada Penalty padne ispod Reuse-limit, data ruta seponovo oglašava
+
+![[Pasted image 20241022203549.png]]
 

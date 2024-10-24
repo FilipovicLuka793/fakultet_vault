@@ -14,9 +14,9 @@ Algoritam za ovaj postupak je sledeci: dodati decu izabranog cvora u red, sortir
 Heuristika su neki dodatni podaci koje mozemo da iskoristimo da bi dosli do resenje, medjutim ovo ne daje optimalno resenje.
 
 ### BBS - Branch and Bound Search
-Mehanizam je sledeci: na pocetku cena startnog cvora je 0, svaki sledeci cvor sledbenik se upisuje u listu i na njemu se dodaje cena njegovog roditelja plus cena kojom kosta da se dodje do tog cvora. Zatim se lista sortira rastuce i uzima se najevtini ruta.
+Mehanizam je sledeci: na pocetku cena startnog cvora je 0, svaki sledeci cvor sledbenik se upisuje u listu i na njemu se dodaje cena njegovog roditelja plus cena kojom kosta da se dodje do tog cvora. Zatim se lista sortira rastuce i uzima se najeftinija ruta.
 
-Na ovaj nacin mozemo naci optimalno resenje cak mozemo da implementiramo i DP u ovaj algoritam tako sto ako nadjemo putanju do nekog cvora koja je optimalnija od predhodno nadjene putanje mozemo tu skuplu putanju kompletno da izbacimo iz liste posto je neefikasna i ubrzavamo time algoritam.
+Na ovaj nacin mozemo naci optimalno resenje cak mozemo da implementiramo i DP u ovaj algoritam tako sto ako nadjemo putanju do nekog cvora koja je optimalnija od predhodno nadjene putanje mozemo tu skuplju putanju kompletno da izbacimo iz liste posto je neefikasna i ubrzavamo time algoritam.
 
 ### $A^*$ - A star
 
@@ -43,6 +43,37 @@ Ako imamo tablu punu kvadrata i zelimo da najdemo heuristiku onda je najbolje sl
 Posmatramo zamak koji je okruzen crvenom bojom i zelimo da nadjemo najkraci put do drugih sela. Ako ignorisemo puteve i samo gledamo hvadrate i njihovu direktnu putanju do sela mozemo naci najoptimalniju putanju i te brojeve mozemo uzeti kao heuristiku.
 
 ![[Pasted image 20241011161236.png]]
+
+### Heuristika grafa - Minimum Spanning Tree
+
+To je podskup grana koja povezuje sve cvorove grafa tako da nema petlji i cija je cena najmanja.
+
+Moze da se kreira pomocu Kruskalovog algoritma. On funkcionise tako sto inicialno stablo cine svi cvorovi i nijedna grana. Zatim se bira grana najmanje tezine tako da se ne kreira petlja u stablu. Ovaj postupak se ponavlja sve dok se ne povezu svi cvorovi u stablu.
+
+Ovaj algoritam kada se izvrsi mozemo da dobijemo dobru heuristiku kada je u pitanje rad za grafovima.
+
+![[Pasted image 20241023132920.png]]
+```handdrawn-ink
+{
+	"versionAtEmbed": "0.2.6",
+	"filepath": "a PNG folder/Ink/Drawing/2024.10.23 - 13.29pm.drawing"
+}
+```
+
+```handdrawn-ink
+{
+	"versionAtEmbed": "0.2.6",
+	"filepath": "a PNG folder/Ink/Drawing/2024.10.23 - 13.32pm.drawing"
+}
+```
+
+```handwritten-ink
+{
+	"versionAtEmbed": "0.2.6",
+	"filepath": "a PNG folder/Ink/Writing/2024.10.23 - 13.38pm.writing"
+}
+```
+Kada radimo heuristiku za ostale cvorove bitno je da izbacujemo roditeljski cvor kada trazimo heuristiku.
 ### Zadaci za vezbu
 
 ![[Pasted image 20241011155340.png]]
@@ -52,4 +83,6 @@ Posmatramo zamak koji je okruzen crvenom bojom i zelimo da nadjemo najkraci put 
 ![[Pasted image 20241011155421.png]]
 
 ![[Pasted image 20241011155436.png]]
+
+![[Pasted image 20241023130050.png]]
 
